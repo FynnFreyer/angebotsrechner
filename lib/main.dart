@@ -229,7 +229,10 @@ class _EingabeMaskeState extends State<EingabeMaske> {
                 ],
               )
             ),
-            Text(_ergebnis),
+            Text(
+              _ergebnis,
+              style: TextStyle(fontSize: 32) ,
+            ),
             Text("\n\nName des Kunden"),
             TextFormField(
                 focusNode: _focusNodeName,
