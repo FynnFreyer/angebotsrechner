@@ -156,7 +156,7 @@ class _EingabeMaskeState extends State<EingabeMaske> {
                 decoration: InputDecoration(
                     labelText: "in Mannstunden",
                     icon: Icon(Icons.transfer_within_a_station))),
-            Text("\nOder Anfahrtskostenpauschale"),
+            Text("\nAnfahrtskostenpauschale"),
             TextFormField(
                 focusNode: _focusNodeAnfahrtspauschale,
                 controller: _anfahrtskostenpauschaleController,
